@@ -1,0 +1,64 @@
+// =======================================
+// Prisma Schema
+// ---------------------------------------
+// This file defines the database schema
+// and configures Prisma Client generator.
+// =======================================
+
+generator client {
+  provider = "prisma-client-js" // Generates the Prisma Client
+}
+
+datasource db {
+  provider = "postgresql"       // Using PostgreSQL as the database
+  url      = env("DATABASE_URL") // Connection string from .env file
+}
+
+// =======================================
+// Models
+// =======================================
+
+/// Represents a category of items (e.g., Fruits, Beverages, etc.)
+model Category {
+  id       Int    @id @default(autoincrement()) // Primary key
+  name     String @unique                       // Unique category name
+  iconName String?                              // Optional icon for UI
+  items    Item[]                               // One-to-many relation with Item
+}
+
+/// Represents a unit of measurement (e.g., kg, liter, piece)
+model Unit {
+  id    Int    @id @default(autoincrement()) // Primary key
+  name  String @unique                       // Unique unit name
+  Items Item[]                               // One-to-many relation with Item
+}
+
+/// Represents a shopping list
+model List {
+  id        Int      @id @default(autoincrement()) // Primary key
+  name      String                                // List name
+  items     Item[]                                // One-to-many relation with Item
+  createdAt DateTime @default(now())              // Timestamp of creation
+}
+
+/// Represents an individual item in a shopping list
+model Item {
+  id         Int      @id @default(autoincrement()) // Primary key
+  name       String                                // Item name
+  quantity   Float                                 // Quantity to buy
+  brand      String?                               // Optional brand name
+  comments   String?                               // Optional user notes
+
+  // Relations
+  category   Category @relation(fields: [categoryId], references: [id])
+  categoryId Int
+
+  list       List     @relation(fields: [listId], references: [id])
+  listId     Int
+
+  unit       Unit     @relation(fields: [unitId], references: [id])
+  unitId     Int
+
+  bought     Boolean  @default(false)              // Flag if the item has been bought
+  addedAt    DateTime @default(now())              // Timestamp of when the item was added
+}

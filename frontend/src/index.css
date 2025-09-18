@@ -1,0 +1,27 @@
+/* general */
+@font-face{
+    font-family: Huninn;
+    src: url("../src/assets/fonts/Huninn-Regular.ttf");
+}
+
+@import "tailwindcss";
+@import 'tailwind-scrollbar-hide/v4';
+@plugin "daisyui";
+
+@theme{
+    --font-huninn: Huninn, "sans-serif";
+}
+
+/* app blurred gradient background, designed in https://csshero.org */
+body {
+  font-family: var(--font-huninn);
+  background-color:rgb(203, 235, 252);
+  background-image:
+  radial-gradient(at 67% 83%, rgb(122, 222, 255) 0px, transparent 50%),
+  radial-gradient(at 75% 64%, rgb(234, 207, 248) 0px, transparent 50%),
+  radial-gradient(at 3% 23%, rgb(85, 201, 247) 0px, transparent 50%),
+  radial-gradient(at 1% 8%, rgb(137, 163, 248) 0px, transparent 50%),
+  radial-gradient(at 63% 9%, rgb(159, 225, 255) 0px, transparent 50%),
+  radial-gradient(at 94% 50%, rgb(241, 253, 63) 0px, transparent 50%),
+  radial-gradient(at 78% 31%, rgb(0, 178, 251) 0px, transparent 50%);
+}
