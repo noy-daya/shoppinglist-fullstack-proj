@@ -104,7 +104,7 @@ cd shopping-list-api
 ```
 
 ### 2. Install dependencies
-Install concurrently (if not already installed globally):
+Install _concurrently_ (if not already installed globally):
 ```bash
 npm install concurrently
 ```
@@ -149,5 +149,6 @@ Check out the live version of the **Shopping List App** without installing anyth
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
 
 
