@@ -45,7 +45,11 @@ shopping-list-api/
 ## 📷 Screenshots
 | Desktop | Mobile |
 |---------|--------|
-| ![Desktop](./assets/desktop.png) | ![Mobile](./assets/mobile.png) |
+| ![Desktop](./assets/desktop/main-pc-front.png) | ![Mobile](./assets/mobile/main-portrait.png) |
+| ![Desktop](./assets/desktop/lists-pc-front.png) | ![Mobile](./assets/mobile/lists-portrait.png) |
+| ![Desktop](./assets/desktop/items-pc-front.png) | ![Mobile](./assets/mobile/items-portrait.png) |
+| ![Desktop](./assets/desktop/additem-pc-front.png) | ![Mobile](./assets/mobile/additem-portrait.png) |
+| ![Desktop](./assets/desktop/statistics-pc-front.png) | ![Mobile](./assets/mobile/statistics-portrait.png) |
 
 ---
 
@@ -103,3 +107,4 @@ Check out the live version of the **Shopping List App** without installing anyth
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
