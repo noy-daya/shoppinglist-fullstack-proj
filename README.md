@@ -17,14 +17,25 @@ The app provides a **modern, responsive, and user-friendly interface** that work
 ---
 ## ⚙️ Technologies
 ### Backend
+![Node.js](https://img.shields.io/badge/Node.js-lightgrey)
+![Express](https://img.shields.io/badge/Express-lightgrey)
+![Prisma](https://img.shields.io/badge/Prisma-lightgrey)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-lightgrey)
+
 The backend of the Shopping List application is designed to provide a **robust, scalable, and secure API** for the frontend. It uses the following technologies:
 - **Node.js & Express** → REST API server
 - **Prisma ORM** → Database access
 - **Supabase (PostgreSQL)** → Managed database hosting
 - **Middleware** → Async error handling, request validation, error handler
+
 > 🔗 More detailed information is available in the [Backend README](./backend/README.md)
 
 ### Frontend
+![React](https://img.shields.io/badge/React-lightgrey)
+![Vite](https://img.shields.io/badge/Vite-lightgrey)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-lightgrey)
+![daisyUI](https://img.shields.io/badge/daisyUI-lightgrey)
+
 The frontend of the Shopping List application provides a **responsive and user-friendly interface**. It uses the following technologies:
 - **React** → Component-based UI library for building interactive interfaces  
 - **Vite** → Fast development server and build tool  
@@ -32,6 +43,7 @@ The frontend of the Shopping List application provides a **responsive and user-f
 - **daisyUI** → Tailwind-based component library for pre-designed UI elements  
 
 > 🔗 More detailed information is available in the [Frontend README](./frontend/README.md)
+
 ---
 
 ## 📂 Project Main Structure
@@ -40,16 +52,46 @@ shopping-list-api/
 ├── backend/  # API
 └── frontend/ # UI
 ```
+> 💡 Note: Both `backend` and `frontend` folders include their own README files with detailed information.
 
 ---
+
 ## 📷 Screenshots
-| Desktop | Mobile |
-|---------|--------|
-| ![Desktop](./assets/desktop/main-pc-front.png) | ![Mobile](./assets/mobile/main-portrait.png) |
-| ![Desktop](./assets/desktop/lists-pc-front.png) | ![Mobile](./assets/mobile/lists-portrait.png) |
-| ![Desktop](./assets/desktop/items-pc-front.png) | ![Mobile](./assets/mobile/items-portrait.png) |
-| ![Desktop](./assets/desktop/additem-pc-front.png) | ![Mobile](./assets/mobile/additem-portrait.png) |
-| ![Desktop](./assets/desktop/statistics-pc-front.png) | ![Mobile](./assets/mobile/statistics-portrait.png) |
+
+Here’s how the Shopping List App looks across mobile and desktop devices:
+
+<table>
+  <tr>
+    <th>Page</th>
+    <th>Mobile View</th>
+    <th>Desktop View</th>
+  </tr>
+  <tr>
+    <td>Main Dashboard</td>
+    <td><img src="./assets/mobile/main-portrait.png" alt="Main Dashboard Mobile" width="180"/></td>
+    <td><img src="./assets/desktop/main-pc-front.png" alt="Main Dashboard Desktop" width="400"/></td>
+  </tr>
+  <tr>
+    <td>Lists</td>
+    <td><img src="./assets/mobile/lists-portrait.png" alt="Lists Mobile" width="180"/></td>
+    <td><img src="./assets/desktop/lists-pc-front.png" alt="Lists Desktop" width="400"/></td>
+  </tr>
+  <tr>
+    <td>Items</td>
+    <td><img src="./assets/mobile/items-portrait.png" alt="Items Mobile" width="180"/></td>
+    <td><img src="./assets/desktop/items-pc-front.png" alt="Items Desktop" width="400"/></td>
+  </tr>
+  <tr>
+    <td>Add Item</td>
+    <td><img src="./assets/mobile/additem-portrait.png" alt="Add Item Mobile" width="180"/></td>
+    <td><img src="./assets/desktop/additem-pc-front.png" alt="Add Item Desktop" width="400"/></td>
+  </tr>
+  <tr>
+    <td>Statistics</td>
+    <td><img src="./assets/mobile/statistics-portrait.png" alt="Statistics Mobile" width="180"/></td>
+    <td><img src="./assets/desktop/statistics-pc-front.png" alt="Statistics Desktop" width="400"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -100,11 +142,12 @@ Frontend → http://localhost:5173
 
 ---
 
-## 🎬 Live Demo
+## 🌐 Live Demo
 
 Check out the live version of the **Shopping List App** without installing anything locally:
 
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
 
