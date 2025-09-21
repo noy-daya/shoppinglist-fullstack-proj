@@ -136,7 +136,7 @@ VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
 npm run dev
 ```
 
-This will start:   
+> This will start:   
 Backend → http://localhost:3000   
 Frontend → http://localhost:5173   
 
@@ -149,6 +149,7 @@ Check out the live version of the **Shopping List App** without installing anyth
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
 
 
 
