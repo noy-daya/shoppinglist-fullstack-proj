@@ -132,7 +132,7 @@ The backend uses several middleware functions and validators to ensure **secure,
 
 Each request to the Shopping List API follows a structured flow from frontend to database and back. This ensures proper validation, error handling, and separation of concerns.
 
-![Request Flow Diagram](assets/backend-flow.png)
+![Request Flow Diagram](../assets/backend-flow.png)
 
 ### 1. Frontend
 - Sends HTTP requests (`GET`, `POST`, `PUT`, `DELETE`) with data in `body`, `params`, or `query`.
