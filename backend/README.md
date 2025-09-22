@@ -107,7 +107,7 @@ backend/
 
 ---
 
-## ⚙️ Middleware & Validation
+## ⚠️ Error Handling, Middleware & Validation
 The backend uses several middleware functions and validators to ensure **secure, consistent, and error-free API operations**:
 
 - **CORS & JSON Parser**  
