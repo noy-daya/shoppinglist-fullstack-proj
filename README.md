@@ -16,18 +16,18 @@ The app provides a **modern, responsive, and user-friendly interface** that work
 
 ## 📖 Table of Contents
 
-- [⚙️ Technologies](#-technologies)
-  - [Backend](#backend)
-  - [Frontend](#frontend)
-- [📂 Project Main Structure](#-project-main-structure)
-- [📷 Screenshots](#-screenshots)
-- [🚀 Run Locally](#-run-locally)
-  - [Clone repository](#1-clone-repository)
-  - [Install dependencies](#2-install-dependencies)
-  - [Install backend and frontend dependencies](#3-install-backend-and-frontend-dependencies)
-  - [Create .env files](#4-create-env-files)
-  - [Run both backend and frontend](#5-run-both-backend-and-frontend)
-- [🌐 Live Demo](#-live-demo)
+- [⚙️ Technologies](#fullstack-⚙️-technologies)
+  - [Backend](#fullstack-backend)
+  - [Frontend](#fullstack-frontend)
+- [📂 Project Main Structure](#fullstack-📂-project-main-structure)
+- [📷 Screenshots](#fullstack-📷-screenshots)
+- [🚀 Run Locally](#fullstack-🚀-run-locally)
+  - [Clone repository](#fullstack-1-clone-repository)
+  - [Install dependencies](#fullstack-2-install-dependencies)
+  - [Install backend and frontend dependencies](#fullstack-3-install-backend-and-frontend-dependencies)
+  - [Create .env files](#fullstack-4-create-env-files)
+  - [Run both backend and frontend](#fullstack-5-run-both-backend-and-frontend)
+- [🌐 Live Demo](#fullstack-🌐-live-demo)
 
 ---
 ## ⚙️ Technologies
@@ -164,6 +164,7 @@ Check out the live version of the **Shopping List App** without installing anyth
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
 
 
 
