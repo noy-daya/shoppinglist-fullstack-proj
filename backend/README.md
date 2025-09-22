@@ -3,6 +3,16 @@
 This is the backend of the **Shopping List App**, built with **Node.js, Express, Prisma, and Supabase**.  
 It exposes a RESTful API for managing lists, items, categories, units, and statistics.
 
+## 📖 Table of Contents
+
+- [🛠️ Tech Stack](#-tech-stack)
+- [🗄️ Database Structure](#-database-structure)
+- [📂 Folder Structure](#-folder-structure)
+- [🌐 API Endpoints](#-api-endpoints)
+- [⚠️ Error Handling, Middleware & Validation](#-error-handling-middleware--validation)
+- [🔄 Request Flow – Shopping List API](#-request-flow--shopping-list-api)
+- [🚀 Run Locally](#-run-locally)
+
 ---
 
 ## 🛠️ Tech Stack
