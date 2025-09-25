@@ -10,7 +10,7 @@ It exposes a RESTful API for managing lists, items, categories, units, and stati
 - [📂 Folder Structure](#-folder-structure)
 - [🌐 API Endpoints](#-api-endpoints)
 - [⚠️ Error Handling, Middleware & Validation](#-error-handling-middleware--validation)
-- [🔄 Request Flow – Shopping List API](#-request-flow)
+- [🔄 Request Flow](#-request-flow)
 - [🚀 Run Locally](#-run-locally)
 
 ---
