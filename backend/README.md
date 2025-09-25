@@ -15,6 +15,7 @@ It exposes a RESTful API for managing lists, items, categories, units, and stati
 
 ---
 
+<a id="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 ![Node.js](https://img.shields.io/badge/Node.js-lightgrey)
@@ -37,6 +38,7 @@ The backend of the Shopping List application is designed to provide a **robust, 
 
 ---
 
+<a id="database-structure"></a>
 ## 🗄️ Database Structure
 
 The backend uses **PostgreSQL** managed via **Prisma ORM**. Below is the Prisma schema defining the database models and their relations:
@@ -116,6 +118,7 @@ backend/
 
 ---
 
+<a id="error-handling-middleware-validation"></a>
 ## ⚠️ Error Handling, Middleware & Validation
 The backend uses several middleware functions and validators to ensure **secure, consistent, and error-free API operations**:
 
