@@ -22,14 +22,10 @@ The app provides a **modern, responsive, and user-friendly interface** that work
 - [📂 Project Main Structure](#-project-main-structure)
 - [📷 Screenshots](#-screenshots)
 - [🚀 Run Locally](#-run-locally)
-  - [Clone repository](#1-clone-repository)
-  - [Install dependencies](#2-install-dependencies)
-  - [Install backend and frontend dependencies](#3-install-backend-and-frontend-dependencies)
-  - [Create .env files](#4-create-env-files)
-  - [Run both backend and frontend](#5-run-both-backend-and-frontend)
 - [🌐 Live Demo](#-live-demo)
 
 ---
+
 ## ⚙️ Technologies
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-lightgrey)
@@ -164,3 +160,4 @@ Check out the live version of the **Shopping List App** without installing anyth
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
