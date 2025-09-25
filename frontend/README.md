@@ -8,7 +8,7 @@ The frontend also supports **real-time updates** via **Supabase Realtime**, allo
 
 - [🛠️ Tech Stack](#tech-stack)
 - [📂 Folder Structure](#-folder-structure)
-- [⚠️ Error Handling](#-error-handling)
+- [⚠️ Error Handling](#error-handling)
   - [Global Error Context](#1-global-error-context)
   - [Error Normalization Utility](#2-error-normalization-utility)
   - [API Request Handling](#3-api-request-handling)
@@ -80,6 +80,7 @@ frontend/
 
 ---
 
+<a id="error-handling"></a>
 ## ⚠️ Error Handling
 how requests are processed, errors normalized, and notifications displayed to the user.
 
