@@ -5,8 +5,8 @@ It exposes a RESTful API for managing lists, items, categories, units, and stati
 
 ## 📖 Table of Contents
 
-- [🛠️ Tech Stack](#backend-tech-stack)
-- [🗄️ Database Structure](#backend-database-structure)
+- [🛠️ Tech Stack](#-tech-stack)
+- [🗄️ Database Structure](#-database-structure)
 - [📂 Folder Structure](#backend-📂-folder-structure)
 - [🌐 API Endpoints](#backend-🌐-api-endpoints)
 - [⚠️ Error Handling, Middleware & Validation](#backend-⚠️-error-handling-middleware--validation)
