@@ -26,6 +26,7 @@ The app provides a **modern, responsive, and user-friendly interface** that work
 
 ---
 
+<a id="technologies"></a>
 ## ⚙️ Technologies
 ### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-lightgrey)
@@ -160,4 +161,5 @@ Check out the live version of the **Shopping List App** without installing anyth
 [View Live Demo](https://shoppinglist-fullstack-proj-fronten.vercel.app/)
 
 > The app works seamlessly on both desktop and mobile devices, providing a modern and responsive interface for managing your shopping lists.
+
 
