@@ -6,7 +6,7 @@ The frontend also supports **real-time updates** via **Supabase Realtime**, allo
 
 ## 📖 Table of Contents
 
-- [🛠️ Tech Stack](#-tech-stack)
+- [🛠️ Tech Stack](#tech-stack)
 - [📂 Folder Structure](#-folder-structure)
 - [⚠️ Error Handling](#-error-handling)
   - [Global Error Context](#1-global-error-context)
@@ -22,6 +22,7 @@ The frontend also supports **real-time updates** via **Supabase Realtime**, allo
 
 ---
 
+<a id="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 ![React](https://img.shields.io/badge/React-lightgrey)
