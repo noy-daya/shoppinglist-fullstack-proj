@@ -10,7 +10,7 @@ It exposes a RESTful API for managing lists, items, categories, units, and stati
 - [📂 Folder Structure](#-folder-structure)
 - [🌐 API Endpoints](#-api-endpoints)
 - [⚠️ Error Handling, Middleware & Validation](#-error-handling-middleware--validation)
-- [🔄 Request Flow – Shopping List API](#-request-flow--shopping-list-api)
+- [🔄 Request Flow – Shopping List API](#-request-flow)
 - [🚀 Run Locally](#-run-locally)
 
 ---
@@ -137,7 +137,7 @@ The backend uses several middleware functions and validators to ensure **secure,
 
 ---
 
-## 🔄 Request Flow – Shopping List API
+## 🔄 Request Flow
 
 Each request to the Shopping List API follows a structured flow from frontend to database and back. This ensures proper validation, error handling, and separation of concerns.
 
