@@ -9,7 +9,7 @@ It exposes a RESTful API for managing lists, items, categories, units, and stati
 - [🗄️ Database Structure](#database-structure)
 - [📂 Folder Structure](#-folder-structure)
 - [🌐 API Endpoints](#-api-endpoints)
-- [⚠️ Error Handling, Middleware & Validation](#error-handling-middleware--validation)
+- [⚠️ Error Handling, Middleware and Validation](#error-handling-middleware-and-validation)
 - [🔄 Request Flow](#-request-flow)
 - [🚀 Run Locally](#-run-locally)
 
@@ -118,8 +118,8 @@ backend/
 
 ---
 
-<a id="error-handling-middleware-validation"></a>
-## ⚠️ Error Handling, Middleware & Validation
+<a id="error-handling-middleware-and-validation"></a>
+## ⚠️ Error Handling, Middleware and Validation
 The backend uses several middleware functions and validators to ensure **secure, consistent, and error-free API operations**:
 
 - **CORS & JSON Parser**  
